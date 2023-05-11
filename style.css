@@ -94,29 +94,10 @@ section#section3.show {
     flex-direction: row;
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 680px) {
     section {
         top: 135%;
-        width: 100%;
-    }
-}
-
-@media (max-width:425px) {
-    section {
-        left: 80%;
+        left: 360px;
         width: 200%;
-    }
-}
-
-@media (max-width:375px) {
-    section {
-        left: 95%;
-        width: 400%;
-    }
-}
-
-@media (max-width:320px) {
-    section {
-        left: 110%
     }
 }
