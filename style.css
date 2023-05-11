@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+body {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 120vh;
+    background-image: url(assets/background.jpg);
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Styling untuk card */
+.card {
+    background-color: black;
+    border: 1px solid #1f1f1f;
+    border-radius: 4px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 6000px;
+    min-width: 360px;
+    margin: 0 auto;
+    text-align: center;
+    color: #f7f7f7;
+}
+
+/* Styling untuk tombol */
+button {
+    background-color: #8b8b8b;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.icon>a {
+    font-size: 2.1rem;
+    color: #f7f7f7;
+    margin-right: 16px;
+
+}
+
+/* Styling untuk section */
+section {
+    position: absolute;
+    top: 125%;
+    left: 50%;
+    width: 100%;
+    opacity: 0;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    transition: all 0.3s ease-in-out;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: center;
+    height: 0;
+    max-width: 560px;
+}
+
+/* Animasi saat section ditampilkan */
+section#section1.show {
+    height: auto;
+    opacity: 1;
+}
+
+section#section2.show {
+    height: auto;
+    opacity: 1;
+}
+
+section#section3.show {
+    height: auto;
+    opacity: 1;
+}
+
+.seksi {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: left;
+}
+
+.film {
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 576px) {}
